@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Epilogue:wght@500;700&family=Lexend+Deca:wght@700&family=Outfit:wght@700&family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Epilogue:wght@500;700&family=Josefin+Sans:wght@300&family=Lexend+Deca:wght@700&family=Outfit:wght@700&family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.hero{
+  width: 400px;
+  height: 264px;
+  overflow: hidden;
+}
+
+.navbar{
+  background-image: url(/images/desktop/image-hero.jpg);
+  margin-top: -1px;
+  margin-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: 1521px 629px;
+  font-family: 'Alata', sans-serif;
+  overflow: hidden;
+}
+.navbar a{
+  float: left;
+  padding: 20px 16px;
+  font-size: 16px;
+  width: 100px;
+  text-decoration: none;
+  position: relative;
+}
+.navbar ul{
+  /*display: flex;*/
+  list-style: none;
+  color: white;
+  position: relative;
+  font-size: x-small;
+  top: -7px;
+  left: 1057px;
+  cursor: pointer;
+}
+.navbar ul li{
+  float: left;
+  padding: 1px 1px;
+  position: relative;
+  font-size: x-small;
+  margin: 1px 15px;
+}
+.navbar ul li a{
+  width: 150px;
+  color: white;
+  /*display: block;*/
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  padding: 1px 1px;
+  transition: all 0.3s;
+  display: flex;
+}
+.navbar ul li a:hover{
+  color: black;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 19px;
+  row-gap: 10px;
+  top: 1364px;
+  padding: 7px;
+  left: 62px;
+  position: absolute;
+  margin: 60px;
+}
+.container2{
+margin: 60px;
+position: relative;
+top: 45px;
+left: 20px;
+}
+.p1{
+position: relative;
+left: 352px;
+top: 233px;
+border: 3px solid;
+border-color: white;
+font-size: xx-large;
+padding-top: 58px;
+padding-right: 155px;
+padding-left: 113px;
+padding-bottom: 36px;
+margin-right: 1006px;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 300;
+color: white;
+
+}
+.logo{
+  position: relative;
+  top: 21px;
+  right: -177px;
+}
+.sub-container2{
+    border: none;
+    position: relative;
+    top: 386px;
+    left: 615px;
+    z-index: 10;
+    margin-right: 751px;
+    margin-bottom: 403px;
+    margin-top: -233px;
+    padding: 83px;
+    background-color: white;
+}
+.interactive{
+    position: absolute;
+    left: -178px;
+    top: 14px;
+    z-index: 2;
+    margin: 236px;
+}
+.h1{
+  position: relative;
+  top: 4px;
+  margin: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: xx-large;
+}
+.p2{
+  position: relative;
+  top: 49px;
+  margin: 30px;
+  color:  hsl(0, 0%, 55%);
+}
+.container3{
+  margin: 49px;
+  display: flex;
+}
+.p4{
+  position: relative;
+  top: 131px;
+  left: 86px;
+  font-size: x-large;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.button{
+  position: relative;
+  top: 98px;
+  left: 1059px;
+  display: flex;
+  width: 99px;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: small;
+  font-family: 'Alata', sans-serif;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: black;
+  color: white;
+}
+
+.grid1 {
+  font-size: xx-large;
+  position: relative;
+  z-index: 10;
+  top: -143px;
+  right: -47px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.grid2{
+  font-size: xx-large;
+  position: relative;
+  z-index: 10;
+  top: -143px;
+  right: -51px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.grid3{
+  font-size: xx-large;
+  position: relative;
+  z-index: 10;
+  top: -143px;
+  right: -51px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.grid4{
+  font-size: xx-large;
+  position: relative;
+  z-index: 10;
+  top: -150px;
+  right: -51px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.grid5{
+  font-size: xx-large;
+  position: relative;
+  z-index: 10;
+  top: -150px;
+  right: -60px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.grid6{
+  font-size: xx-large;
+  position: relative;
+  z-index: 10;
+  top: -151px;
+  right: -60px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.grid7{
+  font-size: xx-large;
+  position: relative;
+  z-index: 10;
+  top: -151px;
+  right: -53px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.footer-container{
+  padding: 40px 0;
+  background-color: black;
+  height: 165px;
+  position: absolute;
+  width: 100%;
+  bottom: -2444px;
+}
+.footer-container .icons{
+  display: flex;
+  position: relative;
+  left: 1173px;
+  top: -5px;
+  gap: 20px;
+}
+.list{
+  list-style: none;
+  display: flex;
+  position: relative;
+  top: 1700px;
+  left: 139px;
+  gap: 10px;
+  text-decoration: none;
+  float: left;
+  color: white;
+}
+
+.list a{
+float: left;
+padding: 20px 16px;
+font-size: 16px;
+width: 100px;
+text-decoration: none;
+position: relative;
+}
+.list ul{
+/*display: flex;*/
+list-style: none;
+color: white;
+position: relative;
+font-size: x-small;
+top: -7px;
+left: 1057px;
+cursor: pointer;
+}
+.list ul li{
+float: left;
+padding: 1px 1px;
+position: relative;
+font-size: x-small;
+margin: 1px 15px;
+}
+.list ul li a{
+width: 150px;
+color: white;
+/*display: block;*/
+text-decoration: none;
+font-size: 16px;
+text-align: center;
+padding: 1px 1px;
+transition: all 0.3s;
+display: flex;
+}
+
+.copy{
+  position: relative;
+  top: 1700px;
+  margin-left: 1080px;
+  color: rgb(248, 247, 247);
+}
+.icons{
+  display: flex;
+}
+.logo2{
+  position: relative;
+  top: 1700px;
+  left: 144px;
+}
